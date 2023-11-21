@@ -54,11 +54,7 @@ print(dicc3)
 }
 ```
 
-Cree un programa que lea de un archivo con dicho JSON y:
-
-- Imprima los nombres completos (nombre y apellidos) de las personas que practican el deporte ingresado por el usuario.
-- Imprima los nombres completos (nombre y apellidos) de las personas que estén en un rango de edades dado por el usuario.
-
+Cree un programa que lea de un archivo con dicho JSON y: Imprima los nombres completos (nombre y apellidos) de las personas que practican el deporte ingresado por el usuario, Imprima los nombres completos (nombre y apellidos) de las personas que estén en un rango de edades dado por el usuario.
 
 * Explicación
 * Mirar archivo Punto_3.py y Punto3_Reto13.json
