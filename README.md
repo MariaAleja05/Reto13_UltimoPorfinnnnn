@@ -2,7 +2,7 @@
 ### Fecha:  17-11-2023
   
 **1.** Desarrollar un algoritmo que imprima de manera ascendente los valores (todos del mismo tipo) de un diccionario.
-* Explicación
+* No hay explicación porque fue voluntario :)
 * Mirar archivo Reto_13.ipynb
 ```pseudocode
 diccionario={"nombre": "María Alejandra", "carrera": "Ing Industrial", "mascota": "sí"}
@@ -17,7 +17,7 @@ print(valores2)
 ```
 
 **2.** Desarrollar una función que reciba dos diccionarios como parámetros y los mezcle, es decir, que se construya un nuevo diccionario con las llaves de los dos diccionarios; si hay una clave repetida en ambos diccionarios, se debe asignar el valor que tenga la clave en el primer diccionario.
-* Explicación
+* No hay explicación porque fue voluntario :)
 * Mirar archivo Reto_13.ipynb
 ```pseudocode
 diccionario1={"nombre": "María Alejandra", "carrera": "Ing Industrial", "mascota": "sí"}
@@ -62,6 +62,7 @@ Cree un programa que lea de un archivo con dicho JSON y:
 
 * Explicación
 * Mirar archivo Punto_3.py y Punto3_Reto13.json
+  
 ```pseudocode
 import json
 #from pprint import pprint                                                                      # Opcional si se quiere imprimir el contenido del archivo json
