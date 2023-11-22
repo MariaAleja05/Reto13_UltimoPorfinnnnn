@@ -318,17 +318,12 @@ if __name__ == "__main__":
   respuesta2 = GeneroyNombre(nombre)
   respuesta3 = NacionalidadyNombre(nombre)
 
-  for key1, value1 in respuesta1.items():
+  unir_resultados_apis={}
+  unir_resultados_apis.update(respuesta1)
+  unir_resultados_apis.update(respuesta2)
+  unir_resultados_apis.update(respuesta3)
+
+  for key1, value1 in unir_resultados_apis.items():
     print(str(key1) + " --> " + str(value1))
-
-  print("----------------------------------------")
-
-  for key2, value2 in respuesta2.items():
-    print(str(key2) + " --> " + str(value2))
-
-  print("----------------------------------------")
-
-  for key3, value3 in respuesta3.items():
-    print(str(key3) + " --> " + str(value3))
 ```
 
